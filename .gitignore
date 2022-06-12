@@ -1,2 +1,7 @@
-node_modules
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# next.js
 .next
