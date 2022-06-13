@@ -1,17 +1,19 @@
-import Link from 'next/link'
+import Head from 'next/head';
+import Layout, { siteTitle } from '../components/layout';
+import utilStyles from '../styles/utils.module.css';
 
-export default function Blog() {
+export default function Home() {
   return (
-    <>
-      <h1>Blog</h1>
-      <h1 className="title">
-        Read{' '}
-        <Link href="/posts/first-post">
-          <a>this post!</a>
-        </Link>
-      </h1>
-    </>
-
-  )
+    <Layout home>
+      <Head>
+        <title>{siteTitle}</title>
+      </Head>
+      <section className={utilStyles.headingMd}>
+        <p>Hello, I'm Erik. I'm a software engineer</p>
+        <p>
+          This is my personal blog
+        </p>
+      </section>
+    </Layout>
+  );
 }
-
