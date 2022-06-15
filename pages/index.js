@@ -19,7 +19,8 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Developer Blog</h2>
+        <h3>I enjoy coding with Java and Kotlin. When I'm not writing code, I'm writing about writing code. Find me at <Link href="www.github.com/erikhowe"><a>github.com/erikhowe</a></Link> and <Link href="twitter.com/erikhowe24"><a>@erikhowe24</a></Link></h3>
+        <h2 className={utilStyles.headingLg}>Blog Posts</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
         <li className={utilStyles.listItem} key={id}>
