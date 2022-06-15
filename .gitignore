@@ -5,3 +5,7 @@
 
 # next.js
 .next
+
+.DS_Store
+
+todo.txt
