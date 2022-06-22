@@ -18,6 +18,8 @@
     "remark-html": "^15.0.1"
   },
   "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.204",
     "eslint": "8.17.0",
     "eslint-config-next": "12.1.6",
     "eslint-config-prettier": "^8.5.0",
